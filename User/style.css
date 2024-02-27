@@ -1,0 +1,86 @@
+body {
+  background: #2d3339;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header, section, footer, aside, nav, article, hgroup{
+    display: block; 
+}
+.input{
+	
+	 font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-left:35px;
+    height: 25px;
+    width: 80%;
+    border-radius: 3px;
+}
+.notifier{
+	margin: 50px auto;
+    width: 350px;
+    padding: 30px 25px;
+    border-radius: 10px;
+    background: darkred;
+}
+.link {
+    color: black;
+    font-size: 17px;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+.login-button {
+    color: white;
+    background-color: black;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+}
+.info{
+    color: darkred;
+     font-weight: bolder;
+     font-size: 15px;
+}
+.detail{
+    font-size: 15px;
+
+}
+h1.login-title {
+    color: white;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.form-control:focus {
+    border-color:white;
+    outline: none;
+}
+.form{
+	margin: 50px auto;
+	border-radius: 10px;
+
+}
+.content{
+   
+     background-color: cornsilk;
+    
+    border: 2px solid darkred;
+}
+.img{
+    margin: 10px auto;
+    width: 150px;
+    height: auto;
+    padding: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+}
